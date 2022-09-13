@@ -9,7 +9,7 @@
     <Total />
   </b-col>
 </template>
-  
+
 <script>
 import { mapState, mapActions } from 'vuex'
 
@@ -35,15 +35,15 @@ export default {
 
 };
 </script>
-  
- 
-  
-  
+
+
+
+
 <style scoped  lang="scss">
 .productos-card-now {
   height: 326px;
   position: relative;
-  overflow: auto;
+  overflow-x: auto;
   width: 112%;
   margin: 5px;
 }
@@ -76,5 +76,4 @@ export default {
   margin-bottom: 57px;
 }
 </style>
-  
-  
+

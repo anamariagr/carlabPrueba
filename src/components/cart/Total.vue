@@ -12,7 +12,7 @@
         <p class="subtitle">personas</p>
         <div class="action-product">- 1 +</div>
       </b-col>
-      <b-col cols="6"><button class="btn-checkout">Checkout <img
+      <b-col cols="6"><button @click="checkout" class="btn-checkout">Checkout <img
             src="../../assets/icons/109617.svg" /></button></button></b-col>
     </b-row>
   </b-container>
@@ -30,6 +30,12 @@ export default {
   computed: mapState({
     total: state => state.cart.total
   }),
+  methods:{
+    checkout(){
+      this.$store.dispatch("cart/checkout", {});
+
+    }
+  }
 };
 </script>
 
