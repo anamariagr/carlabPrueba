@@ -5,14 +5,16 @@
 
         <div class="icon">
 
-            <img src="../../../assets/icons/pizza.svg" />
+          <img src="../../../assets/icons/pizza.svg" />
+          <!--<img :src="data.icon" />-->
         </div>
         <div>
             <p class="text">{{data.name}}</p>
+
         </div>
     </button>
 </template>
-  
+
 <script>
 export default {
     name: "Category",
@@ -25,7 +27,7 @@ export default {
     },
 };
 </script>
-  
+
 
 <style scoped  lang="scss" >
 .categories {
@@ -74,5 +76,4 @@ export default {
     width: 100%;
 }
 </style>
-    
-  
+
