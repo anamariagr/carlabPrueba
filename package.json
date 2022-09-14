@@ -1,6 +1,7 @@
 {
   "name": "myproject",
   "version": "1.0.0",
+
   "description": "A Vue.js project",
   "author": "anamariagr <anamariagarcia9709@gmail.com>",
   "private": true,
@@ -84,8 +85,7 @@
     "webpack-merge": "^4.1.0"
   },
   "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
+    "node": "14.x"
   },
   "browserslist": [
     "> 1%",
